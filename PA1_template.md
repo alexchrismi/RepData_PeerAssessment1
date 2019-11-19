@@ -54,7 +54,7 @@ hist(sum.stp$x,
      col = "red")
 ```
 
-![](PA1_template_files/figure-html/code chunk_2-1.png)<!-- -->
+![](PA1_template_files/figure-html/code_chunk_2-1.png)<!-- -->
 
 The mean and median of the total number of steps taken per day is given below: 
 
@@ -95,7 +95,7 @@ plot(ave.stp$int, ave.stp$ave.stp,
      type = "l")
 ```
 
-![](PA1_template_files/figure-html/code chunk_4-1.png)<!-- -->
+![](PA1_template_files/figure-html/code_chunk_4-1.png)<!-- -->
 
 The 5-minute interval that, on average across all the days in the dataset, contains the maximum number of steps is given by the following code. This is the 8:35 time interval.
 
@@ -143,7 +143,7 @@ hist(sum.stp$x,
      col = "red")
 ```
 
-![](PA1_template_files/figure-html/code chunk_7-1.png)<!-- -->
+![](PA1_template_files/figure-html/code_chunk_7-1.png)<!-- -->
 
 We also calculated the mean and median total number of steps taken per day using the imputed data. The mean and median are as follows:
 
@@ -201,4 +201,4 @@ ggplot(ave.stp, aes(x = Interval, y = Average, color = typ.day)) +
        theme(legend.position = "bottom", legend.title = element_blank())
 ```
 
-![](PA1_template_files/figure-html/code chunk_10-1.png)<!-- -->
+![](PA1_template_files/figure-html/code_chunk_10-1.png)<!-- -->
